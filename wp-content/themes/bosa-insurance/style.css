@@ -1,0 +1,240 @@
+/*!
+Theme Name: Bosa Insurance
+Theme URI: https://bosathemes.com/bosa-insurance
+Author: Keon Themes
+Author URI: https://keonthemes.com
+Description: Bosa Insurance is multipurpose insurance theme. Bosa Insurance is beautiful, fast, lightweight, responsive, extremely customizable theme that you can use as a foundation to build versatile sites such as insurance companies, agency, agents and brokers, services, financial centers or advisors, finance recruitment, cooperatives, marketing agency, consults, wealth advisors, investors, business firm, corporate, blog, news, portfolio and preferably ideal for any type of insurance sites. Bosa Insurance is a child theme of Bosa, a free multipurpose WordPress theme. Bosa Insurance works perfectly with Gutenberg and the most popular page builder Elementor that can easily drag-and-drop your ideas from the interface. Bosa Insurance is built with SEO, speed, and usability in mind with the multiple Header & Footer layouts, predesigned starter sites includes awesome Home & Inner Pages that is incredibly customizable and powerful enough to take a stand among the crowd. Bosa Insurance is compatible with all major plugins like WooCommerce, Yoast, Contact form 7, Mailchimp for WordPress, bbPress, etc. Looking for a Multipurpose Insurance theme? Look no further! Browse the demos to see that it's the only theme you will ever need: https://demo.bosathemes.com/bosa/bosa-insurance
+Version: 1.0.3
+Requires PHP: 5.5
+Tested up to: 6.0
+License: GNU General Public License v3 or later
+License URI: http://www.gnu.org/licenses/gpl-3.0.html
+Template: bosa
+Text Domain: bosa-insurance
+Tags: blog, portfolio, news, grid-Layout, one-column, two-columns, three-columns, flexible-header, left-sidebar, right-sidebar, custom-background, custom-colors, custom-logo, custom-menu, featured-images, footer-widgets, full-width-template, post-formats, rtl-language-support, theme-options, sticky-post, threaded-comments, translation-ready, block-styles, wide-blocks
+
+Bosa Insurance WordPress Theme, Copyright 2022 Keon Themes
+Bosa Insurance is distributed under the terms of the GNU General Public License v3
+
+Bosa Insurance is based on Underscores https://underscores.me/, (C) 2012-2017 Automattic, Inc.
+Underscores is distributed under the terms of the GNU GPL v2 or later.
+*/
+
+.screen-reader-text {
+  border: 0;
+  clip: rect(1px, 1px, 1px, 1px);
+  clip-path: inset(50%);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute !important;
+  width: 1px;
+  word-wrap: normal !important;
+}
+
+body {
+  color: #444444;
+  font-family: 'Open Sans', sans-serif;
+}
+
+h1, 
+h2, 
+h3, 
+h4, 
+h5, 
+h6 {
+  color: #3a3a3a;
+  font-family: 'Open Sans', serif;
+  font-weight: 600;
+}
+
+.wp-block-quote {
+  padding: 30px 30px 30px 50px;
+  margin: 30px 0 30px 30px;
+}
+
+.site-header .site-branding .site-title {
+  font-family: 'Merriweather', serif;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 1.2;
+  text-transform: none;
+}
+
+.main-navigation ul.menu > li > a {
+  font-family: 'Merriweather', serif;
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 1.5;
+  text-transform: none;
+}
+
+.section-banner .banner-content .entry-title {
+  font-family: 'Merriweather', serif;
+  font-size: 56px;
+  font-weight: 700;
+  line-height: 1.2;
+  text-transform: capitalize;
+}
+
+.section-banner .banner-content .entry-text p {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.8;
+  text-transform: initial;
+}
+
+.feature-posts-content-wrap .feature-posts-content .feature-posts-title {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 1.4;
+  text-transform: capitalize;
+}
+
+.post .feature-posts-content .cat-links a {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 11px;
+  font-weight: 600;
+  line-height: 1;
+  text-transform: uppercase;
+}
+
+#primary article .entry-title {
+  font-family: 'Merriweather', serif;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 1.4;
+  text-transform: capitalize;
+}
+
+.highlight-post-slider .post .entry-content .entry-title {
+  font-family: 'Merriweather', serif;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 1.4;
+  text-transform: capitalize;
+}
+
+.highlight-post-slider .post .cat-links a {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 11px;
+  font-weight: 600;
+  line-height: 1;
+  text-transform: uppercase;
+}
+
+.sidebar .widget .widget-title {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 1.4;
+  text-transform: uppercase;
+}
+
+.page-title {
+  font-family: 'Merriweather', serif;
+  font-size: 40px;
+  font-weight: 800;
+  text-transform: capitalize;
+}
+
+.site-footer .site-info,
+.site-footer .footer-menu ul li a {
+  font-family: 'Merriweather', serif;
+  font-weight: 700;
+  font-size: 14px,
+  text-transform: none,
+  line-height: 1.6,
+}
+
+.feature-posts-layout-two .post {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-align-items: center;
+  -moz-align-items: center;
+  -ms-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+.feature-posts-layout-two .post .feature-posts-image {
+  width: 120px;
+  margin-right: 15px;
+}
+.feature-posts-layout-two .post .feature-posts-image a {
+  display: block;
+  position: relative;
+}
+.feature-posts-layout-two .post .feature-posts-image a:before {
+  content: "";
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  left: 0;
+  right: 0;
+  top: 0;
+  visibility: hidden;
+  opacity: 0;
+  -webkit-transition: visibility 0.4s, opacity 0.4s;
+  -moz-transition: visibility 0.4s, opacity 0.4s;
+  -ms-transition: visibility 0.4s, opacity 0.4s;
+  -o-transition: visibility 0.4s, opacity 0.4s;
+  transition: visibility 0.4s, opacity 0.4s;
+}
+.feature-posts-layout-two .post .feature-posts-content {
+  width: -moz-calc(100% - 140px);
+  width: -webkit-calc(100% - 140px);
+  width: calc(100% - 140px);
+}
+.feature-posts-layout-two .post .feature-posts-content .feature-posts-title {
+  margin-bottom: 6px;
+}
+.feature-posts-layout-two .post .feature-posts-content .cat-links {
+  display: block;
+}
+.feature-posts-layout-two .post .feature-posts-content .cat-links a {
+  position: relative;
+}
+.feature-posts-layout-two .post .feature-posts-content .cat-links a:after {
+  content: ",";
+  display: inline-block;
+}
+.feature-posts-layout-two .post .feature-posts-content .cat-links a:last-child:after {
+  display: none;
+}
+.feature-posts-layout-two .post.no-thumbnail .feature-posts-content {
+  width: 100%;
+}
+.feature-posts-layout-two .post:hover .feature-posts-image a:before, .feature-posts-layout-two .post:focus .feature-posts-image a:before, .feature-posts-layout-two .post:active .feature-posts-image a:before {
+  visibility: visible;
+  opacity: 1;
+}
+
+
+#bosa-insurance-contact .wpcf7 input[type=text],
+#bosa-insurance-contact .wpcf7 input[type=email],
+#bosa-insurance-contact .wpcf7 textarea {
+  border: none;
+  background-color: #fff;
+  height: 55px;
+  padding-left: 20px;
+  margin-bottom: 20px;
+}
+
+#bosa-insurance-contact .wpcf7 input[type=submit] {
+  background-color: #233D62;
+  font-size: 15px;
+  font-weight: 600;
+  padding: 20px 35px;
+}
+
+#bosa-insurance-contact .wpcf7 input[type=submit]:hover,
+#bosa-insurance-contact .wpcf7 input[type=submit]:active,
+#bosa-insurance-contact .wpcf7 input[type=submit]:focus {
+  background-color: #000000;
+}
